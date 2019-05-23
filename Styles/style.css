@@ -288,7 +288,7 @@ footer {
 #twos {
     margin: auto;
     text-align: center;
-    margin-top: -200px;
+
 }
 
 .footeritem2 {
@@ -1926,6 +1926,11 @@ td {
     .footeritem2 {
         flex: 1;
         margin: 0px 10px 0px 10px;
+
+    }
+    
+    .footeritem2 a {
+        text-decoration: none;
     }
 
     .footeritem3 {
@@ -1953,7 +1958,8 @@ td {
     }
 
     .ill {
-        font-size: 40px;
+        font-size: 30px;
+        margin-right: 6%;
     }
       .swush {
         display: none;
@@ -1964,6 +1970,8 @@ td {
     .sidenav1 {
         display: none;
     }
+    
+
 
 
 
@@ -2332,13 +2340,13 @@ td {
 
 
     footer {
-        height: 800px;
+        height: 500px;
         background-color: #ebebed;
         color: black;
         padding-top: 60px;
         padding-bottom: 24px;
         z-index: 2;
-        margin-top: 100px;
+        margin-top: 50px;
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -2350,6 +2358,7 @@ td {
         justify-content: space-between;
         width: 100%;
         flex-direction: column;
+        text-align: center;
     }
 
     .footeritem1 {
@@ -2464,6 +2473,110 @@ td {
     .picked form input {
         width: 30px;
         text-align: center;
+    }
+    
+    .checkoutbox {
+        display: flex;
+        flex-direction: row;
+        border: gray 2px solid;
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .checkoutitem p {
+text-align: left;
+        
+        
+        
+        font-size: 20px;
+        margin: 5px;
+            
+    } 
+    
+    
+    
+    .checkoutitem {
+        flex:none;
+        display: inline-block;
+
+    }
+    
+    .checkoutitem img{
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 0;
+        display: inline-block;
+    } 
+    
+    .checkoutbox:first-child {
+         width: 30%!important;
+    }
+    
+    .checkoutitem form input{
+        display: block;
+
+        margin-left: 10px;
+        border: black thin solid;
+        padding: 10px 20px;
+        font-size: 16px;
+        
+    }
+    
+    .checkoutitem form {
+       margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .titi {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+    }
+    
+    .mik {
+        display: block;
+
+    }
+    
+    .flexflex {
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        border: black thin solid;
+        width: 90%;
+        margin: auto;
+        height: 370px;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .slik {
+        width: 100%;
+    }
+    
+    .flexflex img{
+        width: 50%;
+        height: auto;
+    }
+    
+    .flexflex p{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    
+    .flexflex {
+        
+    }
+    
+    .flexflex {
+        
+    }
+    
+    .chkout {
+        margin: 0;
     }
 
 
