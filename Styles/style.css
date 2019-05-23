@@ -2420,7 +2420,40 @@ td {
     }
     
 
+#phcontent {
+    text-align: left;
+}
 
+table {
+    margin-top: 30px;
+}
+
+tr {
+    width: 100%;
+    margin-left: 0px;
+}
+
+th {
+    width: 11%;
+    padding-bottom: 10px;
+}
+
+td {
+    padding-bottom: 5px;
+}
+
+.mereplads {
+    width: 25%;
+}
+
+.mindreplads {
+    widows: 15%;
+}
+    
+    .picked form input {
+        width: 30px;
+        text-align: center;
+    }
 
 
 }
