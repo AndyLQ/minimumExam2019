@@ -29,6 +29,9 @@ header {
     margin-top: 30px;
 }
 
+button {
+    border: none;
+}
 
 
 /*HEADER AND NAV*/
@@ -115,6 +118,11 @@ nav {
     margin: auto;
 }
 
+#logo2 {
+    display: none;
+}
+
+
 #headflex1 {
     flex: 2;
 
@@ -151,6 +159,7 @@ nav {
     font-family: Arial;
     text-align: start;
     padding-left: 0;
+    background-color: white;
 }
 
 .openBtn:hover {
@@ -317,6 +326,7 @@ footer {
     color: white;
     font-size: 16px;
     margin-top: 20px;
+    border: none;
 }
 
 
@@ -341,6 +351,11 @@ footer {
 
 .log {
     background-color: #ebebed
+}
+
+#fjern2 {
+    display: none;
+
 }
 
 
@@ -377,6 +392,10 @@ footer {
 #frontflex div img {
     height: 100%;
     width: 100%;
+}
+
+#frontflex2 {
+    display: none;
 }
 
 
@@ -477,7 +496,7 @@ footer {
 .produktbeskriv {
     width: 30%;
     margin-bottom: 30px;
-   
+
 }
 
 .produkterimg {
@@ -506,22 +525,23 @@ footer {
     margin-top: 30px;
 
 }
+
 .sidetal p {
     display: inline-block;
-      margin: 5px;
+    margin: 5px;
     cursor: pointer;
     font-size: 20px;
     font-weight: bolder;
 }
 
 .siden {
-    font-weight:bolder;
+    font-weight: bolder;
 
     border-bottom: black 2px solid;
 }
 
 .sidetal p:hover {
-/*    text-decoration: underline;*/
+    /*    text-decoration: underline;*/
     border-bottom: black 2px solid;
 
 }
@@ -533,14 +553,14 @@ footer {
     color: gray;
     font-size: 12px;
     font-weight: 400;
-/*    border: #ebebed 2px solid;*/
+    /*    border: #ebebed 2px solid;*/
     padding: 10px 20px;
-/*    background-color: #ebebed;*/
+    /*    background-color: #ebebed;*/
     background-color: white;
 }
 
 .newbox {
-     position: relative;
+    position: relative;
 }
 
 
@@ -628,10 +648,9 @@ footer {
 }
 
 #accountcontent2 {
-        display: none;
-  ¨
-
-    }
+    display: none;
+    ¨
+}
 
 
 
@@ -692,8 +711,9 @@ footer {
     margin-left: 250px;
     margin-top: 50px;
 }
+
 #ci p {
-font-weight: 800;
+    font-weight: 800;
     font-size: 22px;
 }
 
@@ -703,26 +723,30 @@ font-weight: 800;
     margin-bottom: 3px;
 }
 
-.fa-facebook-square, .fa-instagram, .fa-envelope {
+.fa-facebook-square,
+.fa-instagram,
+.fa-envelope {
     margin-right: 20px;
     margin-left: 1px;
-font-size: 40px;
+    font-size: 40px;
     color: black;
     margin-top: 10px;
-    
+
 }
 
-.fa-facebook-square a, .fa-instagram a, .fa-envelope a {
+.fa-facebook-square a,
+.fa-instagram a,
+.fa-envelope a {
     color: black;
 }
 
 #omitem3 a {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #omitem2 a button {
-background-color: black;
-    color:white;
+    background-color: black;
+    color: white;
     padding: 15px;
     font-size: 14px;
 }
@@ -735,10 +759,10 @@ background-color: black;
 }
 
 #omitem2 a {
-margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-#some{
+#some {
     margin-bottom: 15px;
     display: flex;
 
@@ -770,6 +794,7 @@ margin-bottom: 0px;
 .nobot {
     margin-bottom: 0;
 }
+
 .notop {
     margin-top: 5px;
 }
@@ -866,7 +891,7 @@ margin-bottom: 0px;
     margin: auto;
 }
 
-.checkoutitem form input  {
+.checkoutitem form input {
     margin-top: 15px;
 }
 
@@ -892,14 +917,14 @@ margin-bottom: 0px;
 }
 
 .productitem1 img {
-width: 100%;
+    width: 100%;
     height: 32.666%;
 
 }
 
 
 .productitem2 {
-   width: 50%;
+    width: 50%;
     height: 100%;
 }
 
@@ -984,10 +1009,18 @@ width: 100%;
     height: auto;
     width: 100%;
     margin-top: 30px;
+    display: block;
 }
 
 .farvebox2 {
-/*    border: red thin solid;*/
+    display: none;
+}
+
+
+
+
+
+.farvebox2 {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -998,16 +1031,12 @@ width: 100%;
     font-weight: 800;
 }
 
-.farvebox2 div {
-/*    border: green thin solid;*/
-}
+.farvebox2 div {}
 
 .farvebox3 {
-/*    border: red thin solid;*/
     display: flex;
     flex-direction: row;
     width: 100%;
-/*    margin-bottom: 20px;*/
     height: 50px;
 }
 
@@ -1016,7 +1045,7 @@ width: 100%;
 }
 
 .farvebox3 div {
-/*    border: green thin solid;*/
+    /*    border: green thin solid;*/
 }
 
 .flex10 {
@@ -1024,7 +1053,7 @@ width: 100%;
 }
 
 .flex8 {
-   flex: 7;
+    flex: 7;
 }
 
 .flex6 {
@@ -1036,7 +1065,8 @@ width: 100%;
     flex: 1;
 }
 
-.farvebox3 .flex8 p, .farvebox3 .flex8 form {
+.farvebox3 .flex8 p,
+.farvebox3 .flex8 form {
     display: inline-block;
 }
 
@@ -1050,12 +1080,12 @@ width: 100%;
     font-size: 14px;
 }
 
-.farvebox3  p{
+.farvebox3 p {
     margin-top: 10px;
 }
 
 .farvebox2 .flex8 p {
-text-align: left;
+    text-align: left;
     margin-left: 18px;
 }
 
@@ -1068,7 +1098,7 @@ text-align: left;
     font-size: 16px;
     width: 30%;
     margin-top: 30px;
-    
+
 }
 
 .bread {
@@ -1079,7 +1109,7 @@ text-align: left;
     display: inline-block;
     color: gray;
     text-decoration: none;
-    
+
 }
 
 .bread a:hover {
@@ -1090,7 +1120,7 @@ text-align: left;
     display: inline-block;
     color: gray;
     text-decoration: none;
-    
+
 }
 
 
@@ -1154,6 +1184,13 @@ td {
     display: none;
     margin: auto;
     text-align: center;
+
+}
+
+#shopmenu {
+    display: block;
+    color: gray;
+
 }
 
 #shopmenu a,
@@ -1175,7 +1212,7 @@ td {
 
 
 #mmenu1 {
-    display: none;
+    display: block;
     margin: auto;
     text-align: left;
     width: 40%;
@@ -1207,7 +1244,7 @@ td {
 }
 
 #mmenu5 {
- display: none;
+    display: none;
     margin: auto;
     text-align: left;
     width: 40%;
@@ -1286,7 +1323,7 @@ td {
 
 
 
-#mmmenu p{
+#mmmenu p {
     margin-left: 10px;
     margin-right: 10px;
     color: gray;
@@ -1305,21 +1342,24 @@ td {
 
 #logoutting {
     color: gray;
-text-decoration: none;
+    text-decoration: none;
 }
 
-#mshopmenu, #maccountmenu {
-      font-size: 22px;
+#mshopmenu,
+#maccountmenu {
+    font-size: 22px;
     color: gray;
     cursor: pointer;
 }
 
-#shopmenu, #accountmenu {
+#shopmenu,
+#accountmenu {
     font-size: 20px;
 }
 
-#shopmenu p, #accountmenu p{
-     margin-left: 10px;
+#shopmenu p,
+#accountmenu p {
+    margin-left: 10px;
     margin-right: 10px;
     color: gray;
     font-size: 18px;
@@ -1328,11 +1368,24 @@ text-decoration: none;
 
 
 
+#mshopmenu {
+    color: black;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#femaleting {
+    color: black;
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+
 
 
 
 /*TABLET*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
 
     .page {
         min-height: 50vh;
@@ -1348,12 +1401,13 @@ text-decoration: none;
         color: black;
         font-weight: 800;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 50px;
 
     }
 
-    header {
-        height: 95px;
+    #kurven {
+        width: 40px;
+        margin-top: 15px
     }
 
     #headflex1 li {
@@ -1479,13 +1533,295 @@ text-decoration: none;
 
     #loginbox {
         padding: 0;
+        width: 50%;
     }
 
+    #logintext {
+        width: 60%;
+    }
+
+    .mmform {
+        border: black thin solid;
+        height: 40px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #mmenu3,
+    #mmenu2,
+    #mmenu1,
+    #mmenu4,
+    #mmenu5 {
+        width: 60%;
+    }
+
+    #account li,
+    #account2 li {
+        font-size: 22px;
+    }
+
+    .myaccountheading {
+        font-size: 28px;
+    }
+
+    .myaccountcontent a {
+        color: white;
+    }
+
+    .edit {
+        border: black thin solid;
+        background-color: black;
+        color: white;
+        padding: 10px 30px;
+    }
+
+    #ci {
+        margin: 50px;
+    }
+
+    #ci p {
+        font-size: 28px;
+    }
+
+    #aboutheading h2 {
+        font-size: 28px;
+    }
+
+    #aboutheading p {
+        font-size: 22px;
+    }
+
+    #omitem1 ul li {
+        font-size: 22px;
+    }
+
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-envelope {
+        font-size: 60px;
+        margin-top: 15px;
+    }
+
+    #some {
+        margin-right: 100px;
+    }
+
+    #some {
+        justify-content: space-between;
+    }
+
+    #pressheading h2 {
+        font-size: 28px;
+    }
+
+    #pressheading p {
+        font-size: 22px;
+    }
+
+    .pressbutton {
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+
+    #faqheading h2 {
+        font-size: 28px;
+    }
+
+    #faqheading p {
+        font-size: 22px;
+    }
+
+    .productbox {
+        flex-wrap: wrap;
+        width: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-content: flex-start;
+        height: auto;
+    }
+
+    .productitem1 {
+        width: 24%;
+        height: auto;
+
+        justify-content: flex-start;
+
+    }
+
+    .productitem1 img {
+        height: auto;
+
+    }
+
+    .tik1,
+    .tik2 {
+        margin-bottom: 6%
+    }
+
+    .tik3 {
+        margin-bottom: 0;
+    }
+
+
+    .productitem2 {
+        width: 74%;
+    }
+
+    .productitem3 {
+        width: 60%;
+        margin: auto;
+        margin-top: 50px;
+
+    }
+
+    .productitem3 p {
+        text-align: center;
+    }
+
+    .text1 {
+        font-size: 24px;
+    }
+
+    .text2 {
+        font-size: 20px;
+    }
+
+    .text3 {
+        font-size: 28px;
+    }
+
+    .text4 {
+        font-size: 20px;
+    }
+
+    .proknap {
+        display: none;
+    }
+
+    .proline {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .text1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .colors {
+        display: flex;
+        height: auto;
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .colors div {
+        width: 18%;
+        height: auto;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .colors div img {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .bread {
+        margin-left: 50px;
+    }
+
+    .farvebox {
+        display: none;
+    }
+
+    .farvebox2 {
+        display: block;
+        margin: auto;
+        width: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+
+    .accordion {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: center;
+        border: gray solid 2px;
+        outline: none;
+        transition: 0.4s;
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+
+    .active,
+    .accordion:hover {
+        background-color: #ebebed;
+    }
+
+
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        border: gray solid 2px;
+        border-top: none;
+        flex-direction: column;
+    }
+
+    .picked {
+        text-align: center;
+        border: black solid thin;
+        width: 50px;
+        margin: 10px;
+        display: inline-block;
+    }
+    
+    .picked form {
+
+        border-top: thin black solid;
+        height: 40px;
+
+    }
+    
+        .picked form input {
+        font-size: 16px;
+        height: 30px;
+            text-align: center;
+            margin-top: 4px;
+            
+    }
+    
+    .picked p {
+        margin: 5px 
+
+        
+    }
+    
+    
+    
+    
+    
+    
 }
 
 
+
 /*MOBILE*/
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     nav {
         width: 100vw;
@@ -1493,7 +1829,7 @@ text-decoration: none;
     }
 
     header {
-        height: 60px;
+        height: 70px;
     }
 
     .page {
@@ -1578,84 +1914,243 @@ text-decoration: none;
     .acc {
         font-weight: 800;
     }
-    
+
     #aboutheading {
-         margin-left: 30px;
+        margin-left: 30px;
         margin-right: 30px;
         padding-top: 0;
     }
-    
+
     #faqheading {
-         margin-left: 30px;
+        margin-left: 30px;
         margin-right: 30px;
         padding-top: 0;
     }
-    
+
     #pressheading {
-         margin-left: 30px;
+        margin-left: 30px;
         margin-right: 30px;
         padding-top: 0;
     }
-    
+
     table {
         font-size: 10px;
     }
-    
+
     #mmenu1 {
-         margin-left: 30px;
+        margin-left: 30px;
         margin-right: 30px;
         padding-top: 0;
         width: auto;
     }
-    
+
     #mmenu1 form {
-        border: black solid 1px;
+
         margin-top: 20px;
     }
-    
+
     .mmform {
         margin-top: 0;
     }
-    
-    
-    
+
+
+
     #mmenu1 {
-    display: none;
-    margin: auto;
-    text-align: left;
-    width: 90%;
-    margin-top: 30px;
-}
+        display: block;
+        margin: auto;
+        text-align: left;
+        width: 90%;
+        margin-top: 30px;
+    }
 
-#mmenu2 {
-    display: none;
-    margin: auto;
-    text-align: left;
-    width: 90%;
-    margin-top: 30px;
-}
+    #mmenu2 {
+        display: none;
+        margin: auto;
+        text-align: left;
+        width: 90%;
+        margin-top: 30px;
+    }
 
-#mmenu3 {
-    display: none;
-    margin: auto;
-    text-align: left;
-    width: 90%;
-    margin-top: 30px;
-}
+    #mmenu3 {
+        display: none;
+        margin: auto;
+        text-align: left;
+        width: 90%;
+        margin-top: 30px;
+    }
 
-#mmenu4 {
-    display: none;
-    margin: auto;
-    text-align: left;
-    width: 90%;
-    margin-top: 30px;
-}
+    #mmenu4 {
+        display: none;
+        margin: auto;
+        text-align: left;
+        width: 90%;
+        margin-top: 30px;
+    }
 
-#mmenu5 {
- display: none;
-    margin: auto;
-    text-align: left;
-    width: 90%;
-    margin-top: 30px;
-}
+    #mmenu5 {
+        display: none;
+        margin: auto;
+        text-align: left;
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .burger {
+        font-size: 38px;
+    }
+
+    #kurven {
+        width: 30px;
+    }
+
+    #logo {
+        height: 46px;
+        width: auto;
+    }
+
+    #fjern {
+        display: none;
+    }
+
+    #fjern2 {
+        display: block;
+    }
+
+
+    #faqheading p,
+    #faqheading li {
+        font-size: 20px;
+    }
+
+    #faqheading h2 {
+        font-size: 26px;
+    }
+
+    #pressheading h2 {
+        font-size: 26px;
+    }
+
+    #pressheading p {
+        font-size: 20px;
+    }
+
+    button {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    #aboutheading h2 {
+        font-size: 26px;
+    }
+
+    #ci p {
+        font-size: 26px;
+    }
+
+    #aboutheading p {
+        font-size: 20px;
+    }
+
+    #omflex {
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #ci {
+        margin: 50px 30px 10px 30px;
+    }
+
+    #omitem1 ul li {
+        font-size: 20px;
+    }
+
+
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-envelope {
+        font-size: 40px;
+        margin-top: 15px;
+    }
+
+    #some {
+        width: 30%;
+    }
+
+    .myaccountcontent a {
+        float: none;
+        display: block;
+        position: absolute;
+        top: 850px;
+        margin: auto;
+
+        width: 90%;
+        left: 5%;
+        text-align: center;
+    }
+
+
+    #accountcontent2 ul li {
+        font-size: 20px;
+    }
+
+    #frontflex {
+        display: none;
+    }
+
+    #frontflex2 {
+        display: block;
+    }
+
+    .frontmenu1,
+    .frontmenu2,
+    .frontmenu3 {
+        width: 100vw;
+    }
+
+    .frontmenu1 a img,
+    .frontmenu2 a img,
+    .frontmenu3 a img {
+        width: 100%;
+    }
+
+    #logo2 {
+        display: block;
+        height: 40px;
+        width: auto;
+        margin: auto;
+        margin-top: -5px;
+
+    }
+
+    #logo {
+        display: none;
+    }
+    
+    .farvebox2 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .picked {
+        margin: 5px;
+    }
+    
+    .add {
+        width: 100%;
+    }
+    
+    .addd {
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+    }
+    
+    .productbox {
+        flex-direction: column;
+    }
+
+
+
 }

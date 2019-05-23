@@ -5,7 +5,7 @@ var footer = document.getElementsByTagName("FOOTER")[0];
 
 head.innerHTML = '<title>Title made with js</title> <link rel="stylesheet" type="text/css" href="Styles/style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">'
 
-header.innerHTML = '<nav> <div id="headflex1"><a href="menu.html" class="burger">&#9776;</a> <ul class="headmenu"> <li class="menu1 menufirst"><a href="female.html">female</a></li><li class="menu1"><a href="moves.html">moves</a></li> <li class="menu1"><a href="male.html">male</a></li>  <li class="menu1 menulast"><button class="openBtn" onclick="openSearch()">search</button></li> </ul> </div> <div id="headflex2"><a href="index.html"> <img id="logo" src="img/minimumlogo_black.png"> </a></div> <div id="headflex3"> <ul class="headmenu2"> <li class="menu2 menufirst"><a href="myaccount.html">my account</a></li> <li class="menu2"><a href="info.html">info</a></li> <li class="menu2"><a href="login.html">log out</a></li> <li class="menu2 menulast"><a href="checkout.html"><img src="img/kurv.png" id="kurven"></a></li> </ul> </div> </nav> <!--overlay til search--> <div id="myOverlay" class="overlay"> <span class="closebtn" onclick="closeSearch()" title="Close Overlay">&#215;</span> <div class="overlay-content"> <form action="male.html"> <input type="text" placeholder="search for styles..." name="search"> <button type="submit"><i class="fa fa-search"></i></button> </form> </div></div>';
+header.innerHTML = '<nav> <div id="headflex1"><a href="menu.html" class="burger">&#9776;</a> <ul class="headmenu"> <li class="menu1 menufirst"><a href="female.html">female</a></li><li class="menu1"><a href="moves.html">moves</a></li> <li class="menu1"><a href="male.html">male</a></li>  <li class="menu1 menulast"><button class="openBtn" onclick="openSearch()">search</button></li> </ul> </div> <div id="headflex2"><a href="index.html"> <img id="logo" src="img/minimumlogo_black.png"><img id="logo2" src="img/minimumlogo_black_mobil.png"> </a></div> <div id="headflex3"> <ul class="headmenu2"> <li class="menu2 menufirst"><a href="myaccount.html">my account</a></li> <li class="menu2"><a href="info.html">info</a></li> <li class="menu2"><a href="login.html">log out</a></li> <li class="menu2 menulast"><a href="checkout.html"><img src="img/kurv.png" id="kurven"></a></li> </ul> </div> </nav> <!--overlay til search--> <div id="myOverlay" class="overlay"> <span class="closebtn" onclick="closeSearch()" title="Close Overlay">&#215;</span> <div class="overlay-content"> <form action="male.html"> <input type="text" placeholder="search for styles..." name="search"> <button type="submit"><i class="fa fa-search"></i></button> </form> </div></div>';
 
 footer.innerHTML = '<section class="footercontent"> <div class="footeritem1"> <p>newsletter</p> <p>faq</p> </div> <div class="footeritem2"> <p>socialemedier</p> </div> <div class="footeritem3"> <p>contact</p> </div> </section>';
 
@@ -213,4 +213,26 @@ function infoting() {
     document.getElementById("infoting").style.fontWeight = "800";
     document.getElementById("infoting").style.textDecoration = "underline";
     document.getElementById("infoting").style.color = "black";
+}
+
+
+
+
+//ACCORDION
+
+
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
