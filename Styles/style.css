@@ -1803,6 +1803,7 @@ td {
             text-align: center;
             margin-top: 4px;
             outline: none;
+            -webkit-appearance: none
             
     }
     
