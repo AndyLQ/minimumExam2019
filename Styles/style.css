@@ -1012,7 +1012,7 @@ footer {
     display: block;
 }
 
-.farvebox2 {
+.farveboxe {
     display: none;
 }
 
@@ -1738,7 +1738,7 @@ td {
         display: none;
     }
 
-    .farvebox2 {
+    .farveboxe {
         display: block;
         margin: auto;
         width: auto;
@@ -2130,7 +2130,7 @@ td {
         display: none;
     }
     
-    .farvebox2 {
+    .farveboxe {
         margin-left: 30px;
         margin-right: 30px;
     }
