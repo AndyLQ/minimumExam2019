@@ -35,6 +35,7 @@ function myFunction() {
 
 
 
+
 //for seach overlay
 function openSearch() {
     document.getElementById("myOverlay").style.display = "block";

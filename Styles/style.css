@@ -453,6 +453,13 @@ footer {
     z-index: 1;
 }
 
+.sidenav1 {
+    height: 80%;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
 .browsesidebar {
     color: black;
     text-decoration: none;
@@ -1953,6 +1960,10 @@ td {
     }
 
 
+    
+    .sidenav1 {
+        display: none;
+    }
 
 
 
