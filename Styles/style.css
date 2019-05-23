@@ -1015,7 +1015,10 @@ footer {
 .farveboxe {
     display: none;
 }
-.panel {display: none;}
+
+.panel {
+    display: none;
+}
 
 
 
@@ -1790,35 +1793,34 @@ td {
         margin: 10px;
         display: inline-block;
     }
-    
+
     .picked form {
 
         border-top: thin black solid;
         height: 40px;
 
     }
-    
-        .picked form input {
+
+    .picked form input {
         font-size: 16px;
         height: 30px;
-            text-align: center;
-            margin-top: 4px;
-            outline: none;
-            -webkit-appearance: none
-            
-    }
-    
-    .picked p {
-        margin: 5px 
+        text-align: center;
+        margin-top: 4px;
+        outline: none;
+        -webkit-appearance: none;
+        border: none;
 
-        
     }
-    
-    
-    
-    
-    
-    
+
+    .picked p {
+        margin: 5px
+    }
+
+
+
+
+
+
 }
 
 
@@ -2130,28 +2132,42 @@ td {
     #logo {
         display: none;
     }
-    
+
     .farveboxe {
         margin-left: 30px;
         margin-right: 30px;
     }
+
     .picked {
         margin: 5px;
     }
-    
+
     .add {
         width: 100%;
     }
-    
+
     .addd {
         display: block;
         margin-left: 30px;
         margin-right: 30px;
         width: auto;
     }
-    
+
     .productbox {
         flex-direction: column;
+    }
+
+    .productitem1 {
+        order: 2;
+        flex-direction: row;
+    }
+
+    .productitem2 {
+        order: 1;
+    }
+
+    .productitem3 {
+        order: 3;
     }
 
 
