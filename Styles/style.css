@@ -2545,13 +2545,14 @@ text-align: left;
         display: flex;
         box-sizing: border-box;
         flex-wrap: wrap;
-        border: black thin solid;
-        width: 90%;
+/*        border: black thin solid;*/
+        width: 95%;
         margin: auto;
         height: 370px;
         flex-direction: column;
-        padding: 20px;
+/*        padding: 20px;*/
         margin-bottom: 30px;
+        position: relative;
     }
     .slik {
         width: 100%;
@@ -2565,18 +2566,42 @@ text-align: left;
     .flexflex p{
         font-weight: 800;
         font-size: 20px;
+
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     
-    .flexflex {
-        
+    .flexflex p:first-of-type{
+        margin-top: 0px;
     }
     
-    .flexflex {
-        
+    .flexflex input {
+        border: black thin solid;
+        padding: 10px 10px;
+        font-size: 16px;
+        width: 100px;
+    }
+    
+    .flexflex div{
+        position: absolute;
+        top: -40px;
+        right: 20px;
+        font-size: 30px;
     }
     
     .chkout {
         margin: 0;
+    }
+    
+    #checkoutbutton {
+        width: 90%;
+        padding: 15px 0px;
+    }
+    
+    #checkoutheading {
+        margin-left: 30px;
+        font-size: 26px;
+        margin-bottom: 30px;
     }
 
 
