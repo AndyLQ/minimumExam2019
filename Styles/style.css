@@ -236,7 +236,7 @@ nav {
 /*FOOTER */
 
 footer {
-    height: 400px;
+    height: 300px;
     background-color: #ebebed;
     color: black;
     padding-top: 60px;
@@ -250,27 +250,71 @@ footer {
     width: 1200px;
     margin: auto;
     display: flex;
-    border: blue thin solid;
+    justify-content: space-between;
 }
 
 .footeritem1 {
-    flex: 1;
-    border: red thin solid;
+    flex: 2;
     margin: 0px 20px 0px 0px;
+    width: 33%;
+
+}
+
+.footeritem1 a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+
+    font-weight: 800;
+}
+
+.footeritem1 a:hover {
+    text-decoration: underline;
+}
+
+#footerbtn {
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    border: none;
+    width: 300px;
+    padding: 10px 30px;
+}
+
+  .swush {
+        display: none;
+    }
+
+#twos {
+    margin: auto;
+    text-align: center;
+    margin-top: -200px;
 }
 
 .footeritem2 {
     flex: 1;
-    border: red thin solid;
     margin: 0px 10px 0px 10px;
 }
 
 .footeritem3 {
     flex: 1;
-    border: red thin solid;
-    margin: 0px 0px 0px 20px;
+    padding-left: 0px;
+
 }
 
+#ci2 {
+    margin-left: 0;
+}
+
+#ci2 p {
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+#snot {
+    flex: 1
+}
 
 
 /*LOGIN SCREEN*/
@@ -1817,6 +1861,98 @@ td {
     }
 
 
+    footer {
+        height: 300px;
+        background-color: #ebebed;
+        color: black;
+        padding-top: 60px;
+        padding-bottom: 24px;
+        z-index: 2;
+        margin-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .footercontent {
+
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footeritem1 {
+        flex: 2;
+        margin: 0px 20px 0px 0px;
+        width: 33%;
+
+    }
+
+    .footeritem1 a {
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+
+        font-weight: 800;
+    }
+
+    .footeritem1 a:hover {
+        text-decoration: underline;
+    }
+
+    #footerbtn {
+        color: white;
+        font-size: 16px;
+        background-color: black;
+        border: none;
+        width: 300px;
+        padding: 10px 30px;
+    }
+
+
+    #twos {
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .footeritem2 {
+        flex: 1;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .footeritem3 {
+        flex: 1;
+        padding-left: 0px;
+
+    }
+
+    #ci2 {
+        margin-left: 0;
+    }
+
+    #ci2 p {
+        font-weight: 800;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    #snot {
+        flex: 1
+    }
+
+    #omitem1 ul li {
+        font-size: 16px;
+    }
+
+    .ill {
+        font-size: 40px;
+    }
+      .swush {
+        display: none;
+    }
+
+
 
 
 
@@ -1826,7 +1962,7 @@ td {
 
 
 /*MOBILE*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     nav {
         width: 100vw;
@@ -2160,15 +2296,130 @@ td {
     .productitem1 {
         order: 2;
         flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .productitem1 img {
+        width: 32%;
+        height: 100%;
     }
 
     .productitem2 {
         order: 1;
+        width: 100%;
+        margin-bottom: 5px;
     }
 
     .productitem3 {
         order: 3;
+        margin-top: 10px;
+        width: 100%;
     }
+
+
+    footer {
+        height: 800px;
+        background-color: #ebebed;
+        color: black;
+        padding-top: 60px;
+        padding-bottom: 24px;
+        z-index: 2;
+        margin-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .footercontent {
+
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footeritem1 {
+        flex: 2;
+        margin: 0px 20px 0px 0px;
+        width: 100%;
+
+    }
+
+    .footeritem1 a {
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+
+        font-weight: 800;
+    }
+
+    .footeritem1 a:hover {
+        text-decoration: underline;
+    }
+
+    #footerbtn {
+        color: white;
+        font-size: 16px;
+        background-color: black;
+        border: none;
+        width: 300px;
+        padding: 10px 30px;
+    }
+
+
+    #twos {
+        margin: auto;
+        text-align: left !important;
+        margin-top: -200px;
+    }
+
+    .footeritem2 {
+        flex: 1;
+        margin: 0px 10px 0px 10px;
+        
+    }
+
+    .footeritem3 {
+        flex: 1;
+        padding-left: 0px;
+        margin-top: 50px;
+
+    }
+
+    #ci2 {
+        margin-left: 0;
+    }
+
+    #ci2 p {
+        font-weight: 800;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    #snot {
+        flex: 1
+    }
+
+    #omitem1 ul li {
+        font-size: 16px;
+    }
+
+    .ill {
+        font-size: 40px;
+    }
+
+    .poof {
+        display: none;
+    }
+    
+      .swush {
+        display: block;
+    }
+    
+
 
 
 
