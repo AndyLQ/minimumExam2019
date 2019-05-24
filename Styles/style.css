@@ -2608,6 +2608,7 @@ text-align: left;
     
     .chkout {
         margin: 0;
+        padding-left: 10px;
     }
     
     #checkoutbutton {
