@@ -2548,6 +2548,7 @@ text-align: left;
     
     .mik {
         display: block;
+        position: static;
 
     }
     
