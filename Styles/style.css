@@ -2236,12 +2236,16 @@ td {
         float: none;
         display: block;
         position: absolute;
-        top: 850px;
+        top: 930px;
         margin: auto;
 
         width: 90%;
         left: 5%;
         text-align: center;
+    }
+    
+    .myaccountcontent {
+        margin-bottom: 100px;
     }
 
 
