@@ -1561,13 +1561,20 @@ td {
     }
 
     .chkout {
-        margin-left: 5%;
-        margin-right: 5%;
+padding-left: 50px;
     }
 
     .checkoutbox {
         width: 90%;
         flex-wrap: wrap;
+    }
+    
+    .checkoutitem {
+        flex: auto;
+    }
+    
+    .checkoutitem:first-of-type {
+        flex: 5;
     }
 
     #faqheading {
@@ -1963,6 +1970,11 @@ td {
     
     .sidenav1 {
         display: none;
+    }
+    
+    .checkoutitem form input {
+        border: thin black solid;
+        padding: 5px 20px;
     }
     
 
