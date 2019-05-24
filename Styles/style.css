@@ -413,24 +413,18 @@ footer {
 }
 
 .frontmenu1 {
-
     flex: 1;
     margin: 30px 20px 30px 0px;
-
 }
 
 .frontmenu2 {
-
     flex: 1;
     margin: 30px 10px 30px 10px;
-
 }
 
 .frontmenu3 {
-
     flex: 1;
     margin: 30px 0px 30px 20px;
-
 }
 
 #frontflex div img {
